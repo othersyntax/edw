@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/selamat-datang', function () {
+    return view('latihan.selamat');
+});
+
+Route::get('/laman-utama', function () {
+    return view('latihan.index');
+});
+
 // Route::get('/admin/dashboard', function(){
 //     return view('dashboard');
 // });
